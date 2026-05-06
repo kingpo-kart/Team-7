@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>한국디지털미디어고등학교 홍보 사이트</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <a href="#" class="logo">
+        <span>D</span>
+        DIMIGO
+      </a>
+
+      <button class="menu-btn" id="menuBtn">☰</button>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#departments">학과</a></li>
+        <li><a href="#results">진로성과</a></li>
+        <li><a href="#clubs">동아리</a></li>
+        <li><a href="#schedule">일과표</a></li>
+        <li><a href="#admission">입학 정보</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">IT · Media · Security · Business</p>
+        <h1>
+          디지털 시대를<br />
+          먼저 경험하는 학교
+        </h1>
+        <p class="hero-desc">
+          한국디지털미디어고등학교는 개발, 디자인, 보안, 비즈니스를
+          실제 프로젝트와 진로 설계로 연결하는 IT 특성화 고등학교입니다.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#departments" class="btn primary">학과 둘러보기</a>
+          <a href="#schedule" class="btn ghost">하루 일과 보기</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <img src="images/hero-card.svg" alt="디미고를 상징하는 추상 그래픽" />
+      </div>
+    </section>
+
+    <section class="section intro">
+      <div class="intro-card">
+        <strong>Project Based Learning</strong>
+        <h3>전공 중심 교육</h3>
+        <p>학과별 프로젝트와 실습 기반 수업을 통해 결과물을 직접 만들어 봅니다.</p>
+      </div>
+
+      <div class="intro-card">
+        <strong>Career Design</strong>
+        <h3>진학·취업 병행</h3>
+        <p>대학 진학과 IT 실무 역량을 함께 준비할 수 있는 환경을 제공합니다.</p>
+      </div>
+
+      <div class="intro-card">
+        <strong>Campus Life</strong>
+        <h3>기숙형 학습 환경</h3>
+        <p>규칙적인 생활과 집중 학습 분위기 속에서 자기주도성을 기릅니다.</p>
+      </div>
+    </section>
+
+    <section class="section" id="departments">
+      <div class="section-title">
+        <p>Departments</p>
+        <h2>네 가지 전공 트랙</h2>
+      </div>
+
+      <div class="department-grid">
+        <article class="department-card">
+          <span>01</span>
+          <h3>e-비즈니스과</h3>
+          <p>
+            디지털 서비스, 온라인 비즈니스, 데이터 활용을 중심으로
+            IT와 경영 감각을 함께 기르는 학과입니다.
+          </p>
+        </article>
+
+        <article class="department-card">
+          <span>02</span>
+          <h3>디지털콘텐츠과</h3>
+          <p>
+            디자인, 영상, 콘텐츠 제작, 사용자 경험을 바탕으로
+            미디어 콘텐츠 제작 역량을 키우는 학과입니다.
+          </p>
+        </article>
+
+        <article class="department-card">
+          <span>03</span>
+          <h3>웹프로그래밍과</h3>
+          <p>
+            웹사이트, 서비스 개발, 프론트엔드와 백엔드의 기초를 배우며
+            실제 작동하는 프로그램을 제작합니다.
+          </p>
+        </article>
+
+        <article class="department-card">
+          <span>04</span>
+          <h3>해킹방어과</h3>
+          <p>
+            정보보안, 네트워크, 시스템 보호 기술을 배우며
+            안전한 디지털 환경을 만드는 역량을 기릅니다.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section results" id="results">
+      <div class="section-title light">
+        <p>Career Results</p>
+        <h2>진학률과 취업률</h2>
+      </div>
+
+      <div class="result-grid">
+        <div class="result-card">
+          <span class="counter" data-target="90">0</span>
+          <b>%</b>
+          <p>진학률 예시</p>
+          <small>실제 최신 수치로 수정 필요</small>
+        </div>
+
+        <div class="result-card">
+          <span class="counter" data-target="85">0</span>
+          <b>%</b>
+          <p>취업률 예시</p>
+          <small>실제 최신 수치로 수정 필요</small>
+        </div>
+
+        <div class="result-card">
+          <span class="counter" data-target="4">0</span>
+          <b>개</b>
+          <p>전공 학과</p>
+          <small>IT·미디어·보안·비즈니스</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="clubs">
+      <div class="section-title">
+        <p>Clubs</p>
+        <h2>동아리 소개</h2>
+      </div>
+
+      <div class="club-filter">
+        <button class="filter-btn active" data-filter="all">전체</button>
+        <button class="filter-btn" data-filter="dev">개발</button>
+        <button class="filter-btn" data-filter="media">미디어</button>
+        <button class="filter-btn" data-filter="security">보안</button>
+      </div>
+
+      <div class="club-grid">
+        <article class="club-card" data-category="dev">
+          <h3>웹 개발 동아리</h3>
+          <p>HTML, CSS, JavaScript를 활용해 실제 웹서비스를 제작합니다.</p>
+        </article>
+
+        <article class="club-card" data-category="security">
+          <h3>정보보안 동아리</h3>
+          <p>보안 개념, CTF 문제 풀이, 네트워크 기초를 함께 학습합니다.</p>
+        </article>
+
+        <article class="club-card" data-category="media">
+          <h3>영상 제작 동아리</h3>
+          <p>촬영, 편집, 기획을 통해 학교 생활과 프로젝트를 영상으로 표현합니다.</p>
+        </article>
+
+        <article class="club-card" data-category="dev">
+          <h3>앱 제작 동아리</h3>
+          <p>모바일 앱 아이디어를 설계하고 간단한 프로토타입을 제작합니다.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section schedule" id="schedule">
+      <div class="section-title">
+        <p>Daily Schedule</p>
+        <h2>학교 일과표</h2>
+      </div>
+
+      <div class="timeline">
+        <div class="time-item">
+          <span>08:30</span>
+          <div>
+            <h3>등교 및 아침 준비</h3>
+            <p>수업 전 준비와 학급 조회가 이루어집니다.</p>
+          </div>
+        </div>
+
+        <div class="time-item">
+          <span>09:00</span>
+          <div>
+            <h3>오전 수업</h3>
+            <p>일반 교과와 전공 기초 수업을 진행합니다.</p>
+          </div>
+        </div>
+
+        <div class="time-item">
+          <span>12:40</span>
+          <div>
+            <h3>점심시간</h3>
+            <p>급식과 휴식을 통해 오후 수업을 준비합니다.</p>
+          </div>
+        </div>
+
+        <div class="time-item">
+          <span>14:00</span>
+          <div>
+            <h3>전공 실습</h3>
+            <p>프로젝트, 실습, 협업 활동 중심 수업이 진행됩니다.</p>
+          </div>
+        </div>
+
+        <div class="time-item">
+          <span>18:00</span>
+          <div>
+            <h3>저녁 및 자기주도학습</h3>
+            <p>기숙형 생활에 맞춰 학습과 생활 관리가 이루어집니다.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section admission" id="admission">
+      <div>
+        <p class="eyebrow">Admission Guide</p>
+        <h2>디미고가 궁금한 중학생에게</h2>
+        <p>
+          학과별 교육과정, 학교생활, 입학 전형은 매년 바뀔 수 있으므로
+          최종 정보는 반드시 학교 공식 홈페이지와 모집요강을 확인해야 합니다.
+        </p>
+      </div>
+
+      <a href="#" class="btn primary">공식 홈페이지 확인하기</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 DIMIGO Promotion Site</p>
+    <p>본 사이트는 수행평가용 정적 웹사이트 예시입니다.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
